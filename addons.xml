@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.moviesun-usa" name="美劇線上看" version="1.0.1" provider-name="Dainese">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh">美劇線上看</summary>
+    <description lang="zh">[COLOR cyan]美劇線上看[/COLOR][CR]MovieSun 線上看</description>
+    <disclaimer lang="zh"></disclaimer>
+    <language>Chinese</language>
+    <platform>all</platform>
+    <license>GPL 2</license>
+    <forum></forum>
+    <source>https://github.com/daineseh/kodi-plugin.video.moviesunusa</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.2d-gate" name="二次元之門" version="1.0.7" provider-name="Dainese">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh">二次元之門@2D-Gate - 動畫線上看</summary>
+    <description lang="zh">[COLOR cyan]二次元之門@2D-Gate - 動畫線上看[/COLOR][CR]線上看區絕大部分影片不需要註冊也能夠觀看並使用社群網站的帳號留言。</description>
+    <disclaimer lang="zh"></disclaimer>
+    <language>Chinese</language>
+    <platform>all</platform>
+    <license>GPL 2</license>
+    <forum></forum>
+    <source>https://github.com/daineseh/kodi-plugin.video.2d-gate</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ted-talks-chinese" name="中文 TED Talks" version="0.3.1" provider-name="Dainese">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh">中文 TED Talks</summary>
+    <description lang="zh">[COLOR cyan]中文 TED Talks[/COLOR][CR]TED（指technology, entertainment, design在英語中的縮寫，即技術、娛樂、設計）是美國的一家私有非營利機構。TED誕生於1984年，其創辦人是里查德·沃曼。[CR]TED召集眾多科學、設計、文學、音樂等領域的傑出人物，分享他們關於技術、社會、人的思考和探索。[CR]藉以希望傳達這樣一個的信息，即優秀的思想可以改變人們對這個世界的看法，使人們反思自己的行為。</description>
+    <disclaimer lang="zh"></disclaimer>
+    <language>Chinese</language>
+    <platform>all</platform>
+    <license>GPL 2</license>
+    <forum></forum>
+    <source>https://github.com/daineseh/kodi-plugin.video.ted-talks-chinese</source>
+  </extension>
+</addon>
+
+<addon id="repository.kodi-addons-chinese" name="KODI Add-ons of Chinese" version="1.0.0" provider-name="Dainese">
+    <extension point="xbmc.addon.repository" name="KODI Add-ons of Chinese">
+        <info compressed="true">https://github.com/daineseh/kodi-addon-chinese/raw/master/addons.xml</info>
+        <checksum>https://github.com/daineseh/kodi-addon-chinese/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/daineseh/kodi-addon-chinese/raw/master/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dainese Add-ons Repository</summary>
+        <summary lang="zh">Chinese Add-ons Repository</summary>
+        <description>test</description>
+        <description lang="zh">test</description>
+        <disclaimer>test</disclaimer>
+        <disclaimer lang="zh">test</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>

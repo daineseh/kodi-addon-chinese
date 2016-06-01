@@ -1,0 +1,9 @@
+[submodule "plugin.video.moviesunusa"]
+	path = plugin.video.moviesunusa
+	url = https://github.com/daineseh/kodi-plugin.video.moviesunusa.git
+[submodule "plugin.video.2d-gate"]
+	path = plugin.video.2d-gate
+	url = https://github.com/daineseh/kodi-plugin.video.2d-gate.git
+[submodule "plugin.video.ted-talk-chinese"]
+	path = plugin.video.ted-talk-chinese
+	url = https://github.com/daineseh/kodi-plugin.video.ted-talks-chinese.git
