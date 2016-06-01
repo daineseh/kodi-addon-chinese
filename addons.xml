@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.moviesun-usa" name="美劇線上看" version="1.0.1" provider-name="Dainese">
+<addon id="plugin.video.moviesunusa" name="美劇線上看" version="1.0.2" provider-name="Dainese">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
