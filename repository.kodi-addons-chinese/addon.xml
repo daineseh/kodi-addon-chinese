@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi-addons-chinese" name="KODI Add-ons of Chinese" version="1.0.0" provider-name="Dainese">
+    <extension point="xbmc.addon.repository" name="KODI Add-ons of Chinese">
+        <info compressed="true">https://github.com/daineseh/kodi-addon-chinese/raw/master/addons.xml</info>
+        <checksum>https://github.com/daineseh/kodi-addon-chinese/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/daineseh/kodi-addon-chinese/raw/master/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dainese Add-ons Repository</summary>
+        <summary lang="zh">Chinese Add-ons Repository</summary>
+        <description>test</description>
+        <description lang="zh">test</description>
+        <disclaimer>test</disclaimer>
+        <disclaimer lang="zh">test</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
