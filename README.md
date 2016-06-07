@@ -14,7 +14,7 @@ Addon scripts, plugins, and skins for KODI Media Center. For Traditional Chinese
 ----
 - 進入 `系統(SYSTEM)`→`系統設定(Settings)`
 - 選擇 `附加元件(Add-ons)`
-- 選擇 `從附加元件庫安裝(Install from repository)`
+- 選擇 `從附加元件庫安裝(Install from repository)`→`Kodi Add-ons of Chinese`
 - 安裝元件庫所提供的元件
 
 License
