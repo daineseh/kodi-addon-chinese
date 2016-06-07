@@ -21,7 +21,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.2d-gate" name="二次元之門" version="1.0.7" provider-name="Dainese">
+<addon id="plugin.video.2d-gate" name="二次元之門" version="1.1.0" provider-name="Dainese">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
