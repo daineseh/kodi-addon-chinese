@@ -7,3 +7,6 @@
 [submodule "plugin.video.ted-talk-chinese"]
 	path = plugin.video.ted-talk-chinese
 	url = https://github.com/daineseh/kodi-plugin.video.ted-talks-chinese.git
+[submodule "plugin.video.tw-channel-collection"]
+	path = plugin.video.tw-channel-collection
+	url = https://github.com/daineseh/kodi-plugin.video.tw-channel-collection
