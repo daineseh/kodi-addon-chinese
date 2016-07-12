@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.moviesunusa" name="美劇線上看" version="1.0.4" provider-name="Dainese">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="zh">美劇線上看</summary>
-    <description lang="zh">[COLOR cyan]美劇線上看[/COLOR][CR]MovieSun 線上看</description>
-    <disclaimer lang="zh"></disclaimer>
-    <language>Chinese</language>
-    <platform>all</platform>
-    <license>GPL 2</license>
-    <forum></forum>
-    <source>https://github.com/daineseh/kodi-plugin.video.moviesunusa</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.2d-gate" name="二次元之門" version="1.2.0" provider-name="Dainese">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -42,7 +21,28 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ted-talks-chinese" name="中文 TED Talks" version="0.4.0" provider-name="Dainese">
+<addon id="plugin.video.moviesunusa" name="美劇線上看" version="1.0.4" provider-name="Dainese">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="zh">美劇線上看</summary>
+    <description lang="zh">[COLOR cyan]美劇線上看[/COLOR][CR]MovieSun 線上看</description>
+    <disclaimer lang="zh"></disclaimer>
+    <language>Chinese</language>
+    <platform>all</platform>
+    <license>GPL 2</license>
+    <forum></forum>
+    <source>https://github.com/daineseh/kodi-plugin.video.moviesunusa</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ted-talks-chinese" name="中文 TED Talks" version="0.5.0" provider-name="Dainese">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
